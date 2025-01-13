@@ -19,3 +19,7 @@ Examples of common git commands. Also practice with branching/merging.
 * `git checkout branchName` - switch to branch `branchName`
 * `git checkout -b branchName` - create (if not exists) `branchName` and switch to it
 
+## Remote Commands
+* `git remote add alias repoUrl` - define `alias` as shortcut for `repoUrl` (usually `origin` for alias)
+* `git push origin branchName` - push local commits to remote branch `branchName`
+* `git pull origin branchName` - pull remote commits into local branch
